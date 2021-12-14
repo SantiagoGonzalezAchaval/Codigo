@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-270,-51",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace portBus probe_in0_0 -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace portBus probe_in1_0 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace portBus probe_in2_0 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace portBus probe_out0_0 -pg 1 -lvl 2 -x 300 -y 60 -defaultsOSRD
+preplace portBus probe_out1_0 -pg 1 -lvl 2 -x 300 -y 90 -defaultsOSRD
+preplace portBus probe_out2_0 -pg 1 -lvl 2 -x 300 -y 120 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 150 -y 90 -defaultsOSRD
+preplace netloc clk_0_1 1 0 1 20J 40n
+preplace netloc probe_in0_0_1 1 0 1 20J 70n
+preplace netloc probe_in1_0_1 1 0 1 NJ 100
+preplace netloc probe_in2_0_1 1 0 1 20J 120n
+preplace netloc vio_0_probe_out0 1 1 1 280J 60n
+preplace netloc vio_0_probe_out1 1 1 1 NJ 90
+preplace netloc vio_0_probe_out2 1 1 1 280J 110n
+levelinfo -pg 1 0 150 300
+pagesize -pg 1 -db -bbox -sgen -160 0 470 180
+"
+}
+
